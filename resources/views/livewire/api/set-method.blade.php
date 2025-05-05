@@ -1,0 +1,3 @@
+<div>
+    {{ $api->name }}
+</div>

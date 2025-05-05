@@ -2,10 +2,10 @@
 
 namespace App\Services\Recaptcha;
 
-use App\Services\ServicesInterface;
+use App\Services\ServiceInterface;
 use Illuminate\Support\Facades\Http;
 
-class ValidateRequestService implements ServicesInterface
+class ValidateRequestService implements ServiceInterface
 {
     public function __invoke(): bool
     {

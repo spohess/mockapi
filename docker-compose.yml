@@ -39,6 +39,7 @@ services:
             - './docker/mysql/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh'
         networks:
             - sail
+        command: --default-time-zone='-03:00'
         healthcheck:
             test:
                 - CMD

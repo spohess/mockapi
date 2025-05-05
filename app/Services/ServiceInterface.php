@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-interface ServicesInterface
+interface ServiceInterface
 {
     public function __invoke();
 }

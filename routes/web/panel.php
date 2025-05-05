@@ -1,6 +1,7 @@
 <?php
 
-use App\Livewire\Panel\Home;
+use App\Http\Controllers\Panel\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home', Home::class)->name('home');
+Route::get('/home', HomeController::class)->name('home');
+
